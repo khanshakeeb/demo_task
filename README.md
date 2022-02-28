@@ -62,7 +62,7 @@ npm run watch
 
 Request API
 ```
-curl --location --request POST 'http://localhost:3001/api/v1/fetch-data' \
+curl --location --request POST 'https://playground-assignment.herokuapp.com/api/v1/fetch-data' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "startDate": "2020-01-26",

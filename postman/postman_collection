@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"startDateA\": \"2020-01-26\",\r\n  \"endDate\": \"2022-03-01\",\r\n  \"minCount\": 100,\r\n  \"maxCount\": 1000\r\n}",
+					"raw": "{\r\n  \"startDate\": \"2020-01-26\",\r\n  \"endDate\": \"2022-03-01\",\r\n  \"minCount\": 100,\r\n  \"maxCount\": 1000\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -20,12 +20,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3001/api/v1/fetch-data",
-					"protocol": "http",
+					"raw": "https://playground-assignment.herokuapp.com/api/v1/fetch-data",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"playground-assignment",
+						"herokuapp",
+						"com"
 					],
-					"port": "3001",
 					"path": [
 						"api",
 						"v1",
