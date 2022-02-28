@@ -5,7 +5,7 @@ This project is a demo task project and its purpose to communicate with MongoDB 
 ```
 
 
-+---config                   // All the system coniguration e.g DB 
++---config ------------- All the system coniguration e.g DB 
 |       configurations.js
 |       index.js
 |
