@@ -72,3 +72,8 @@ curl --location --request POST 'https://playground-assignment.herokuapp.com/api/
 }'
 
 ```
+
+## Technical Debt
+1. Due to connection permission on provided MongoDB connection uri unable to connect with actual database.
+2. Babel nodejs packages moved to dependencies from devDependencies in order to run App in Heroku platform
+3. App deployed on Heroku but due to less dataset will not able to query a lot of data.
