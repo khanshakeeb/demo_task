@@ -60,3 +60,15 @@ To run project
 npm run watch
 ```
 
+Request API
+```
+curl --location --request POST 'http://localhost:3001/api/v1/fetch-data' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "startDate": "2020-01-26",
+  "endDate": "2022-03-01",
+  "minCount": 100,
+  "maxCount": 1000
+}'
+
+```
